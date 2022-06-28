@@ -1,0 +1,79 @@
+/* 🟥 general formatting */
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+.bottom {
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+img {
+  height: 60px;
+  width: 100px;
+  object-fit: cover;
+  transition: ease-out 0.4s;
+
+  max-width: calc(100vw - 60px);
+  max-height: calc((100vw - 60px) * 0.6);
+}
+
+img:hover {
+  transition: 1s;
+  cursor: pointer;
+  height: 300px;
+  width: 500px;
+  transition: height width 0.3s;
+}
+
+.text-block {
+  margin: 20px 10px;
+  /* width: 800px; */
+  vertical-align: bottom;
+  margin-bottom: 80px;
+}
+
+.normal-text {
+  margin: 10px 0px;
+}
+
+span {
+  padding: 0px;
+  margin: 0px;
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+/* 🟥 HEADER */
+#title {
+  color: blue;
+}
+
+.header {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-top: 50px;
+}
+
+/* 🟥 projects */
+
+.project-line {
+  margin: 10px 10px;
+  margin-left: 10px;
+  vertical-align: bottom;
+}
+
+.project-line a {
+  color: black;
+}
